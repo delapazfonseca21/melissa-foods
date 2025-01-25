@@ -130,6 +130,15 @@ main{
     color: var(--oscuro);
 }
 
+.options-title{
+    margin: 3rem;
+    font-size: 1.8rem;
+}
+hr{
+    width: 78%;
+    margin: 0 auto;
+}
+
 .option{
     width: 70%;
     min-width: 235px;
