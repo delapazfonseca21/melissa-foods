@@ -34,7 +34,7 @@ header img{
 
 .header-title-container{
     width: 90%;
-    min-width: 28.8rem;
+    min-width: 280px;
     max-width: 90rem;
     height: 21.8rem;
     margin-top: 4rem;
@@ -62,7 +62,7 @@ header img{
     top: 37rem;
     display: grid;
     grid-template-columns: 3fr 4rem;
-    padding: 1.5rem;
+    padding: 1.3rem;
     width: 25rem;
     height: 6rem;
     background-color: var(--fondo);
@@ -77,12 +77,64 @@ header img{
 }
 
 .header-button span{
-    display: flex;;
-    width: 2rem;
-    height: 2rem;
-    margin: 1rem;
+    width: 3rem;
+    height: 3rem;
+    place-self: center;
     background-image: url('./assets/icons/dollar-sign1.svg');
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
+main{
+    width: 100%;
+    height: auto;
+    background-color: var(--fondo);
+    min-width: 320px;
+}
 
+.info-container{
+    width: 100%;
+    height: auto;
+    padding: 7rem 0.8rem 3rem;
+    text-align: center;
+}
+.info-container-title{
+    width: 90%;
+    min-width: 238px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.info-container .backgroundimg{
+    height: 20rem;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+    background-image: url('./assets/imgs/fondo.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.info-container-title h2{
+    margin-bottom: 3rem;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: black;
+}
+
+.info-container-title p{
+    margin-bottom: 3rem;
+    font-size: 1.7rem;
+    font-weight: 500;
+    line-height: 1.6rem;
+    color: var(--oscuro);
+}
+
+.option{
+    width: 70%;
+    min-width: 235px;
+    max-width: 500px;
+    height: 36rem;
+    margin: 0 auto;
+    font-family: "Inter" sans-serif;
+}
